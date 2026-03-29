@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Node
+node_modules/
+dist/
+
+# Model ağırlıkları (çok büyük dosya ~98MB)
+*.pth
+
+# Geçici / çıktı dosyaları
+temp_uploaded_image.jpeg
+final_routes_overlay.png
+segmentation_mask.png
+mask.png
+
+# Test görüntüleri (büyük dosyalar)
+*.jpeg
+*.jpg
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
