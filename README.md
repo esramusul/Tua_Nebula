@@ -31,7 +31,7 @@ NEBULA, üç aşamalı bir pipeline ile bu problemi çözer:
 
 ```mermaid
 flowchart LR
-    A["🛰️ Uydu / Drone\nGörüntüsü"] --> B["🧠 U-Net\nSegmentasyon\n(ResNet34)"]
+    A["🛰️ Uydu Görüntüsü"] --> B["🧠 U-Net\nSegmentasyon\n(ResNet34)"]
     B --> C["🗺️ Semantik Maske\n(Yol / Risk / Engel)"]
     C --> D["⚖️ Cost Map\nÜretimi"]
     D --> E["📍 A* Yol Bulma\n(Kısa + Güvenli)"]
@@ -207,7 +207,6 @@ hackalton/
 ## 10. Gelecek Çalışmalar
 
 - 📊 Eğitim veri setinin coğrafi çeşitliliğinin artırılması
-- 📡 WebSocket ile gerçek zamanlı drone video akışı entegrasyonu
 - 👥 Çoklu kurtarma ekibi koordinasyonu (multi-agent routing)
 - ⚡ Saha cihazları için model quantization (edge deployment)
 
